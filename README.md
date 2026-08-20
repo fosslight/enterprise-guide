@@ -1,6 +1,7 @@
 # FOSSLight Enterprise Guide
-[FOSSLight Enterprise](https://github.com/fosslight/fosslight)는 오픈소스와 라이선스를 관리하고, 오픈소스 컴플라이언스 프로세스를 순차적으로 처리할 수 있는 통합 시스템이자 보안 취약점, Supply Chain 관리 및 SBOM(Software Bill of Materials) 관리 등 오픈소스와 관련된 모든 것을 관리할 수 있는 올인원 시스템입니다.  
-본 가이드 페이지는 FOSSLight Enterprise 기본 사용 방법과 tutorial, 개발 환경 세팅 방법 및 maintenance 팁 등 고급 기능들에 대해 설명하고 있습니다.
+FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, 오픈소스 컴플라이언스 프로세스를 순차적으로 처리할 수 있는 통합 시스템이자 보안 취약점, Supply Chain 관리 및 SBOM(Software Bill of Materials) 관리 등 오픈소스와 관련된 모든 것을 관리할 수 있는 올인원 시스템입니다.  
+본 가이드 페이지는 FOSSLight Enterprise Customer Service 사용 방법과 FOSSLight Hub, Scanner의 공지 사항을 포함하고 있습니다.
+기본적인 사용 방법에 대해서는 [FOSSLight Hub Guide](https://fosslight.org/hub-guide/)와 [FOSSLight Scanner Guide](https://fosslight.org/fosslight-guide/)를 참고 부탁드립니다. 
 
 
 ## Contents  
@@ -27,9 +28,4 @@
 {: .specific-title} 
 - 준비중
 
-
-## License
-{: .left-bar-title}
-[FOSSLight Hub](https://github.com/fosslight/fosslight)는 Open Source License인 [AGPL-3.0][agpl]로 배포되고 있습니다.
-
-[agpl]: https://github.com/fosslight/fosslight/blob/main/LICENSE
+F

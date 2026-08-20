@@ -21,9 +21,11 @@
 
 ### FOSSLight Hub Notice
 {: .specific-title} 
+- 준비중
 
 ### FOSSLight Scanner Notice
 {: .specific-title} 
+- 준비중
 
 
 ## License

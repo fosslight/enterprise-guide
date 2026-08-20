@@ -2,4 +2,6 @@
 sort: 2
 published: true
 ---
-# Hub Notice
+# FOSSLIGHT Hub Notice
+
+FOSSLIGHT Hub에 관련 공지사항을 안내드립니다.

@@ -6,7 +6,7 @@
 ## Contents  
 {: .left-bar-title}
 
-### FOSSLight Enterprise Guide 메뉴
+### Customer Service
 {: .specific-title}   
 - [로그인 및 계정 등록](menu/1_sign.md)
 - [License 정보](menu/2_license.md)
@@ -19,28 +19,12 @@
 - [(LGE Only)Compliance Status](menu/11.compliance_status.md)
 - [System](menu/9_system.md)
 
-### FOSSLight Enterprise 기본 Tutorial
+### FOSSLight Hub Notice
 {: .specific-title} 
-- [Project Tutorial](tutorial/1_project/README.md) : Project를 등록하여 Open Source Compliance 순차적으로 수행하기
-- [Self-check Tutorial](tutorial/2_self_check/README.md) : Self-check로 Open Source 의무 사항 및 보안취약점 간단히 확인하기
 
-### FOSSLight Enterprise Tips
+### FOSSLight Scanner Notice
 {: .specific-title} 
-- [Common](tips/1_common/README.md)
-- [Project](tips/2_project/README.md)
-- [Usecase](tips/3_usecase/README.md)
-- [Vulnerability](tips/4_vul_info/README.md)
-- [Etc](tips/5_etc/README.md)
 
-### FOSSLight Enterprise 고급 기능
-{: .specific-title} 
-- [개발 환경 세팅](advanced/1_developer.md)
-- [REST API](advanced/2_rest_api_2.md)
-- [Maintenance](advanced/3_maintenance.md)
-
-### LEARN MORE
-{: .specific-title} 
-- [FOSSLight Report](learn/2_fosslight_report.md)
 
 ## License
 {: .left-bar-title}

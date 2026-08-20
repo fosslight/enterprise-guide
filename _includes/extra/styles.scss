@@ -1,0 +1,549 @@
+$primary-color: #A50034;
+$secondary-color: #444444;
+
+.header {
+  color : $secondary-color;
+  background: $primary-color;
+}
+
+.sidebar {
+  color: $primary-color;
+  background: $secondary-color;
+}
+
+.toctree {
+  color: $primary-color;
+}
+
+input.form-control {
+	border-color: #3E4538;
+}
+
+a.caption {
+  color: lighten($primary-color, 20%) !important;
+}
+
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+.right {
+  text-align: right;
+  font-size: small;
+  a {
+    text-decoration: none;
+  }
+}
+
+.emphasis_text {
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(191, 13, 63);
+  font-size: 1.2rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-container > .flex-contents {
+  display: block;
+  border: 1px solid rgb(191, 13, 63);
+  margin-bottom: 1rem;
+  padding: 20px;
+  width: 70%;
+  height: 24rem;
+
+  @media (min-width: 48em) {
+    width: 47.5%;
+    margin-right: 5%;
+
+    &:last-of-type,
+    &:nth-child(2n + 2) {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 75em) {
+    width: 30%;
+    margin-right: 5%;
+
+    &:nth-child(2n + 2) {
+      margin-right: 5%;
+    }
+
+    &:last-of-type,
+    &:nth-child(3n + 3) {
+      margin-right: 0;
+    }
+  }
+}
+
+.flex-container > .flex-contents:hover {
+  background-color: rgb(209, 143, 154);
+
+  #feature_title {
+    color: white;
+  }
+}
+
+#feature_title {
+  display: block;
+  margin: initial;
+  color: rgb(197, 103, 119);
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  width: 100%;
+  height: 20%;
+  font-weight: bold;
+  text-align: center;
+  line-height: normal;
+}
+
+#feature_img {
+  display: block;
+  margin: initial;
+  padding-top: 2rem;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+#feature_content {
+  display: block;
+  margin: initial;
+  color: black;
+  font-size: 1rem;
+  padding-top: 3rem;
+  width: 100%;
+  font-weight: initial;
+  text-align: center;
+  line-height: normal;
+}
+
+.home_contents :hover {
+  opacity: 0.7;
+}
+
+
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: #fff;
+  color: #fff;
+  margin: 0;
+  min-height: 100%;
+}
+
+.person-container { width: 100%;}
+
+.persons {
+  padding: 20px auto;
+  max-width: 1000px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.persons:before,
+.persons:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.persons .person {
+  width: 17%;
+  margin: 14px;
+  display: table;
+  float: left;
+  border-left: 5px solid transparent;
+  cursor: pointer;
+  border: 1px solid #A50034;
+}
+
+.persons .person .avatar {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 5px 0 0;
+}
+
+.persons .person .avatar img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 64px;
+}
+
+.persons .person.active { background-color: rgb(197, 103, 119); }
+
+.persons .person.active .fullname { color:#fff; }
+
+.persons .person .fullname {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 20px;
+  padding: 5px 0 5px;
+  font-weight: bold;
+}
+
+.persons .person .title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.persons .person .js-description { display: none; }
+@media screen and (max-width: 700px) {
+
+.persons .person { width: 50%; }
+}
+@media screen and (max-width: 400px) {
+
+.persons .person {
+  width: 100%;
+  border-left: medium none;
+}
+}
+
+.persons .js-dropdown {
+  background-clip: padding-box !important;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px 0 10px;
+  margin: 20px 0 10px;
+  width: 100%;
+  display: table;
+}
+
+.persons .js-dropdown:before,
+.persons .js-dropdown:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+@media screen and (max-width: 400px) {
+
+.persons .js-dropdown { border-left: medium none; }
+}
+
+.persons .js-dropdown .js-dropdown-content {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 4px solid rgb(197, 103, 119);
+  color: black;
+  position: relative;
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+
+.persons .js-dropdown .js-dropdown-content .js-dropdown-arrow {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -45px;
+  border: 46px solid transparent;
+  border-bottom-color: rgb(197, 103, 119);
+  pointer-events: none;
+  -webkit-transition: left 0.3s;
+  -moz-transition: left 0.3s;
+  transition: left 0.3s;
+}
+
+.persons .js-dropdown .js-dropdown-content p {
+  line-height: 26px;
+  margin: 0 0 40px;
+  padding: 0;
+  font-size: 16px;
+}
+
+//style 추가 
+$border-color: #DDDDDD; // 테두리 색상
+$highlight-color: #0066CC; // 강조 색상
+$font-family: 'Courier New'; // 폰트 패밀리
+$padding: 2px 6px; // 패딩
+$border-radius: 4px; // 테두리 반경
+
+// 테이블 스타일
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+// 강조 스타일
+.highlight {
+    font-family: $font-family;
+    font-weight: 600;
+    color: $highlight-color;
+    border: 1px solid $border-color;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.highlight-black {
+    font-family: $font-family;
+    font-weight: 600;
+    border: 1px solid $border-color;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.highlight_table {
+  font-weight: bold;  /* 글씨 굵게 */
+  padding: 6px 12px;  /* 여백 추가 */
+  display: inline-block;
+}
+
+.gray-text {
+  color: gray;
+}
+
+// 도트 및 화살표 스타일
+.large-dot {
+    font-size: 1em; // 도트 크기 조정
+    color: inherit; // 기본 텍스트 색상으로 설정
+}
+
+
+// 설명 스타일
+.description {
+    padding-left: 20px; // 왼쪽 여백 추가
+}
+
+//h3 제목 스타일 
+.specific-title {
+  font-size: 16px !important;
+  color: #000000;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0;  // 제목 아래의 간격을 없앰
+  padding: 7px;
+  border: none; 
+  background: linear-gradient(to bottom,  #ffe4e1, #fff3f3); /* 회색에서 핑크로 그라데이션 */
+  //background-color: #ffe4e1;
+  border-radius: 5px;
+  display: inline-block; 
+  border-left: 3px solid #f8a8a8;
+  /*width: 100%; */
+}
+
+//h2 제목 스타일 
+.left-bar-title {
+  color: #000000;
+  text-align: left;
+  padding: 10px 2px;  /* 패딩으로 높이를 조절  */
+  padding-left: 15px;
+  //border-left: 10px solid #413f3f; 
+  border-left: 5px solid #444444; 
+  border-radius: 5px;
+  display: block;
+  background-color:#E6E6E6;
+  background: linear-gradient(to bottom,  #797979, #ffffff);
+  width: 100%;
+  margin: 150px 0 20px 0;
+}
+
+//h4 제목 스타일 
+.under-bar-title {
+  position: relative; // 위치 설정
+  display: inline-block;
+  font-size: 0.9rem !important;
+      // 헤더 아래에 선 추가
+      &::after {
+        content: ""; // 가상 요소 생성
+        display: block; // 블록 요소로 설정
+        width: calc(100% - 10px); // 텍스트 너비에서 오른쪽 여백을 줄임
+        height: 2px; // 선의 두께를 2px로 설정 (현재의 2배)
+        background: linear-gradient(to right, #413f3f, #ffe4e1 ); // 그라데이션 색상
+        margin-top: 5px; // 헤더와 선 사이의 여백
+        position: absolute; // 절대 위치
+        left: 0; // 왼쪽 정렬
+        bottom: -5px; // 헤더 아래 위치
+    }
+}
+
+
+// h5 제목 스타일
+.under-2bar-title {
+  position: relative; // 위치 설정
+  display: inline-block;
+  font-size: 0.85rem !important;
+  text-indent: 20px;  // 텍스트 첫 번째 줄에 20px 들여쓰기 추가
+
+  // 첫 번째 파란색 선
+  &::after {
+    content: ""; // 가상 요소 생성
+    display: block; // 블록 요소로 설정
+    width: 100%; // 전체 너비
+    height: 2px; // 선의 두께
+    background-color: #0000ff; // 파란색
+    margin-top: 5px; // 제목과 선 사이의 간격
+    position: absolute;
+    left: 0; // 왼쪽 정렬
+    bottom: -5px; // 첫 번째 선의 위치
+  }
+
+  // 두 번째 파란색 선
+  &::before {
+    content: ""; // 가상 요소 생성
+    display: block; // 블록 요소로 설정
+    width: 100%; // 전체 너비
+    height: 2px; // 선의 두께
+    background-color: #0000ff; // 파란색
+    margin-top: 2px; // 첫 번째 선과 두 번째 선 사이의 간격
+    position: absolute;
+    left: 0; // 왼쪽 정렬
+    bottom: -7px; // 두 번째 선의 위치 (첫 번째 선보다 아래로)
+  }
+}
+
+
+.markdown-body p,
+.markdown-body ul li,
+.markdown-body ol li,
+.markdown-body details summary,
+.markdown-body table th,
+.markdown-body table td {
+    font-size: 0.85rem; /* 폰트 크기 설정 */
+    color: inherit; /* 부모의 색상 상속 */
+    padding: 1px; /* 셀 안의 여백 조정 */
+    line-height: 1.4;         /* 줄 간격 줄이기 (기본은 보통 1.5~1.6) */
+    margin-top: 2px;          /* 요소 위 간격 살짝 */
+    margin-bottom: 2px;       /* 요소 아래 간격도 살짝 */
+}
+
+
+.note {
+  background-color: #faf9f4; /* 연한 노란색 배경 */
+  border: 1px solid #ffeeba; /* 노란색 테두리 */
+  color: #5e4701; /* 어두운 노란색 글자 */
+  padding: 10px; /* 내부 여백 */
+  border-radius: 4px; /* 모서리 둥글게 */
+  font-size: 0.85rem; /* 폰트 크기 설정 */
+}
+
+.youtube-container {
+  text-align: left;  // 왼쪽 정렬
+  margin-top: 0;  // YouTube 비디오 위 간격
+  margin-bottom: 0;  // YouTube 비디오 아래 간격
+  position: relative;
+  display: block;  // display를 block 새로운 줄에 배치
+  background-color: #f5f5f5; // 배경 색상
+  padding: 10px;  // 여백을 줄여서 비디오 주변 공간을 최소화
+  border-radius: 8px;
+  width: 560px;  // 고정된 YouTube iframe의 너비
+  height: 315px;  // 고정된 YouTube iframe의 높이
+  margin-left: 0;  // 왼쪽 정렬을 확실하게 적용하기 위해서 margin-left 추가
+  margin-right: 0; // 오른쪽 여백을 없애기
+
+  iframe {
+    width: 100%;  // iframe을 div 크기에 맞게 조정
+    height: 100%; // iframe 높이를 부모 요소의 높이에 맞게 설정
+    display: block;  // 블록 요소로 설정
+    margin: 0;  // 여백을 0으로 설정하여 왼쪽으로 정렬
+    border-radius: 8px;
+  }
+}
+
+
+.styled-image {
+  max-width: 100%;             /* 화면 크기에 맞게 이미지를 크기 조정 */
+  height: auto;                /* 비율을 유지하면서 높이 자동 설정 */
+  display: block;              /* 블록 요소로 설정하여 새로운 줄에 배치 */
+  float: none; /* <-- 명시적으로 float 제거 */
+  clear: both;
+  margin: 0;                   /* 여백을 0으로 설정 */
+  margin-right: 20px;          /* 이미지와 텍스트 사이에 간격 추가 */
+  margin-bottom: 20px;
+  border: 2px solid #ddd;      /* 얇은 테두리 추가 */
+  border-radius: 8px;          /* 둥근 테두리 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+}
+
+
+.styled-image_nofloat {
+  max-width: 100%;           /* 화면 크기에 맞게 이미지를 크기 조정 */
+  display: block;            /* 블록 요소로 설정하여 새로운 줄에 배치 */
+  margin: 0;                 /* 여백을 0으로 설정 */
+  margin-right: 20px;        /* 이미지와 텍스트 사이에 간격 추가 */
+  margin-bottom: 20px;       /* 이미지 아래에 20px의 마진 추가 */
+  border: 2px solid #ddd;    /* 얇은 테두리 추가 */
+  border-radius: 8px;        /* 둥근 테두리 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+  clear: both;               /* float된 요소 아래로 텍스트가 내려가도록 처리 */
+}
+
+.list-with-dot {
+  padding-left: 10px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+.oss-warning-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; // 열 너비 고정을 위해 추가
+    font-family: Arial, sans-serif;
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px 10px; // 원래보다 간결한 여백
+      text-align: left;
+      vertical-align: top;
+      background-color: white;
+      word-break: keep-all;    // ★ 단어 기준 줄바꿈
+      white-space: normal; 
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: center;
+    }
+    // 2번째 컬럼(Warning message) 너비 고정
+    th.warning-col {
+      width: 250px;
+    }
+    
+     // 커스텀 도트가 붙는 줄 정의
+    .dot-line {
+      position: relative;
+      padding-left: 1em;
+
+      &::before {
+        content: "●";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #000; // 도트 색상
+        font-size: 0.75em;
+        line-height: 1.4;
+      }
+    }
+  }
+}

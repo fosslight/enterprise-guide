@@ -12,7 +12,7 @@ Request를 확인 및 관리하는 방법을 설명합니다.
 
 ## Request 확인
 {: .left-bar-title }
-FOSSLight Enterprise Jira에 로그인 후에 오른쪽 위 아이콘을 클릭하면 Request 목록을 확인할 수 있습니다. 
+FOSSLight Enterprise Customer Service(Jira)에 로그인 후에 오른쪽 위 아이콘을 클릭하면 Request 목록을 확인할 수 있습니다. 
 <br>
 또한 등록한 이메일을 통해 Request 관련 활동에 대한 알림을 받을 수 있습니다
 <br><br>

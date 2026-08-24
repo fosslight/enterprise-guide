@@ -7,7 +7,7 @@ published: true
 <br><br>
 
 # Sign In & Sign Up
-FOSSLight Enterprise Jira 계정 생성 및 로그인 방법을 설명합니다. 
+FOSSLight Enterprise Customer Service(Jira) 계정 생성 및 로그인 방법을 설명합니다. 
 <br><br>
 
 ## Sign Up

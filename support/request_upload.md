@@ -7,7 +7,7 @@ published: true
 <br><br>
 
 # Request 유형 및 등록
-Request 유형과 등록하는 방법을 설명합니다.  
+Request 유형 및 등록하는 방법을 설명합니다.  
 <br><br>
 
 ## Request 유형

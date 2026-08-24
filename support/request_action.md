@@ -6,8 +6,8 @@ published: true
 **FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)**
 <br><br>
 
-# Request 확인과 관리
-Request를 확인과 관리하는 방법을 설명합니다. 
+# Request 확인 및 관리
+Request를 확인 및 관리하는 방법을 설명합니다. 
 <br><br>
 
 ## Request 확인

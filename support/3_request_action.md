@@ -3,16 +3,23 @@ sort: 3
 published: true
 ---
 
+FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
 
 # Request 확인
+{: .left-bar-title }
 Request를 확인하는 방법을 설명합니다. 
+
 FOSSLight Enterprise Jira에 로그인 후에 오른쪽 위 아이콘을 클릭하면 Request 목록을 확인할 수 있습니다. 
 또한 등록한 이메일을 통해 Request 관련 활동에 대한 알림을 받을 수 있습니다
-- FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
+
+<br><br>
+![SignIn](images/1_login_1.png)
 <br><br>
 
-{: .left-bar-title }
+
+
 # Request Comment 작성
+{: .left-bar-title }
 Request 진행 과정에서 추가 정보 제공, 문의 또는 답변을 위해 Comment를 등록할 수 있습니다.
 
 담당자가 요청한 추가 정보를 전달할 수 있습니다.

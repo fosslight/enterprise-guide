@@ -3,12 +3,14 @@ sort: 1
 published: true
 ---
 
-FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
+**FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)**
+<br><br>
+
 # Sign In & Sign Up
 FOSSLight Enterprise Jira 계정 생성 및 로그인 방법을 설명합니다. 
 <br><br>
 
-# Sign Up
+## Sign Up
 {: .left-bar-title }
 Jira를 처음 이용하는 경우 계정을 생성해야 합니다.  
 - Jira에 접속합니다.

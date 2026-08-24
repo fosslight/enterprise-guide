@@ -15,6 +15,7 @@ FOSSLight Enterprise Jira를 처음 이용하는 경우 계정을 생성해야 �
 - 입력한 이메일 주소로 발송된 확인 메일을 확인합니다.
 - 이름과 비밀번호를 설정합니다.
 - 계정 생성이 완료되면 서비스를 이용할 수 있습니다.
+<br>
 ![SignIn](images/1_login_1.png)
 <br><br>
 

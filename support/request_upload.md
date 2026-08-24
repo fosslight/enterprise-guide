@@ -34,7 +34,8 @@ Request 유형은 다음과 같습니다.
 Request 등록 시 아래 사항을 입력해야 합니다. 
 
 - Category (필수) : Request에 대상 서비스를 선택
-  FOSSLight Hub, FOSSLight Scanner, 기타 서비스 중 1개 
+  <br>
+  **FOSSLight Hub, FOSSLight Scanner, 기타 서비스 중 1개** 
 - Summary (필수) : Request 제목
 - Description (필수) : Request 상세 내용
 - Attachments (선택) : Request와 관련된 첨부 파일 

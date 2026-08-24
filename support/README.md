@@ -2,7 +2,7 @@
 sort: 1
 published: true
 ---
-# Customer Service
+# FOSSLIGHT Customer Service
 
 ```note
 FOSSLight Enterprise Customer Service(Jira) 사용자 가이드를 안내드립니다. 

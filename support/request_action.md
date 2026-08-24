@@ -18,6 +18,8 @@ FOSSLight Enterprise Jira에 로그인 후에 오른쪽 위 아이콘을 클릭�
 <br><br>
 ![RequestAction](images/3_1request_action.png)
 <br><br>
+![RequestAction](images/3_2request_action.png)
+<br><br>
 
 
 # Request 관리
@@ -36,9 +38,7 @@ Request 진행 과정에서 추가 정보 제공, 문의 또는 답변을 위해
 등록한 Comment는 Atlassian 정책에 따라 수정하거나 삭제할 수 없습니다.
 <br>
 **Comment 수정 또는 삭제가 필요한 경우 새로운 Comment로 요청해 주시면 담당자가 확인 후 반영합니다.**
-<br><br>
-![RequestAction](images/3_2request_action.png)
-<br><br>
+
 
 
 ## Request Status 변경

@@ -3,16 +3,13 @@ sort: 2
 published: true
 ---
 
-
 # Request 등록
 Request 등록 및 확인하는 방법을 설명합니다. 
 - FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
 <br><br>
 
-{: .left-bar-title }
-
-
 # Request 종류
+{: .left-bar-title }
 Request 유형은 다음과 같습니다. 
 - 기술 요청 지원
   서비스 사용, 설정, 연동 등 기술 문의

@@ -9,16 +9,10 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 
 ### Customer Service
 {: .specific-title}   
-- [로그인 및 계정 등록](menu/1_sign.md)
-- [License 정보](menu/2_license.md)
-- [Open Source 정보](menu/3_oss.md)
-- [Project](menu/4_project.md)
-- [3rd Party](menu/5_third-party.md)
-- [Binary DB](menu/10_binarydb.md)
-- [Vulnerability](menu/7_vulnerability.md)
-- [Self-Check](menu/6_self-check.md)
-- [(LGE Only)Compliance Status](menu/11.compliance_status.md)
-- [System](menu/9_system.md)
+- [로그인 및 계정 등록](support/1_sign.md)
+- [Request 등록](support/2_request_upload.md)
+- [Request 확인](support/3_request_action.md)
+
 
 ### FOSSLight Hub Notice
 {: .specific-title} 

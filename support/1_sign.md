@@ -10,7 +10,6 @@ FOSSLight Enterprise Jira 계정 생성 및 로그인 방법을 설명합니다.
 
 # Sign Up
 {: .left-bar-title }
-
 Jira를 처음 이용하는 경우 계정을 생성해야 합니다.  
 - Jira에 접속합니다.
 - 회사 이메일 주소를 입력한 후 다음(Next) 을 선택합니다.

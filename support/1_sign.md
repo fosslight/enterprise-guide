@@ -23,6 +23,7 @@ FOSSLight Enterprise Jira를 처음 이용하는 경우 계정을 생성해야 �
 ## Sign In 
 {: .left-bar-title }
 계정 생성이 완료된 후에는 등록한 이메일 주소와 비밀번호를 사용하여 로그인할 수 있습니다.
+<br>
 
 ![SignIn](images/1_sign_in.PNG)
    

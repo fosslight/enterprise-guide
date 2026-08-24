@@ -9,7 +9,8 @@ FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/se
 Request 유형과 등록하는 방법을 설명합니다.  
 <br><br>
 
-# Request 유형
+
+## Request 유형
 {: .left-bar-title }
 Request 유형은 다음과 같습니다. 
 - 기술 요청 지원

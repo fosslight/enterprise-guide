@@ -2,13 +2,13 @@
 sort: 1
 published: true
 ---
-# FOSSLIGHT Customer Service
+# FOSSLight Enterprise Customer Service
 
 ```note
 FOSSLight Enterprise Customer Service(Jira) 사용자 가이드를 안내드립니다. 
 ```
 
-## [Sign In&Up](1_sign.md) 
+## [Sign In & Up](1_sign.md) 
 로그인 및 계정 등록
 
 ## [Request 등록](2_request_upload.md)

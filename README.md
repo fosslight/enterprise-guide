@@ -15,12 +15,14 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 - [Request 확인 및 관리](support/3_request_action.md)
 <br>
 
-### FOSSLight Hub Notice
+### FOSSLight Hub 
 {: .specific-title} 
-- 준비중
+- [FOSSLight Hub Notice](hub/notice.md)
+- [FOSSLight Hub Guide](hub/guide.md)
 <br>
 
-### FOSSLight Scanner Notice
+### FOSSLight Scanner
 {: .specific-title} 
-- 준비중
+- [FOSSLight Scanner Notice](scanner/notice.md)
+- [FOSSLight Scanner Guide](scanner/guide.md)
 

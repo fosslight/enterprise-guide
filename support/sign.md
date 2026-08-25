@@ -1,4 +1,5 @@
 ---
+title: Sign In & Sign Up
 sort: 1
 published: true
 ---

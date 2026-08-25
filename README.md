@@ -8,7 +8,7 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 ## Contents  
 {: .left-bar-title}
 
-### FOSSLight Enterprise Customer Service
+### Customer Service
 {: .specific-title}   
 - [로그인 및 계정 등록](support/1_sign.md)
 - [Request 유형 및 등록](support/2_request_upload.md)

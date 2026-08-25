@@ -6,13 +6,6 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 ## Contents  
 {: .left-bar-title}
 
-### Customer Service
-{: .specific-title}   
-- [로그인 및 계정 등록](support/1_sign.md)
-- [Request 유형 및 등록](support/2_request_upload.md)
-- [Request 확인 및 관리](support/3_request_action.md)
-<br>
-
 ### FOSSLight Hub 
 {: .specific-title} 
 - [FOSSLight Hub Notice](hub/notice.md)
@@ -23,4 +16,11 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 {: .specific-title} 
 - [FOSSLight Scanner Notice](scanner/notice.md)
 - [FOSSLight Scanner Guide](scanner/guide.md)
+<br>
+
+### Customer Service
+{: .specific-title}   
+- [로그인 및 계정 등록](support/1_sign.md)
+- [Request 유형 및 등록](support/2_request_upload.md)
+- [Request 확인 및 관리](support/3_request_action.md)
 

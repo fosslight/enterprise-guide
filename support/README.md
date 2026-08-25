@@ -3,10 +3,10 @@ sort: 1
 published: true
 ---
 
-# FOSSLight Enterprise Customer Service
-FOSSLight Enterprise Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
+# Customer Service
+Customer Service(Jira): [https://fosslight.atlassian.net/servicedesk/customer/portal/69](https://fosslight.atlassian.net/servicedesk/customer/portal/69)
 ```note
-FOSSLight Enterprise Customer Service(Jira) 사용자 가이드를 안내드립니다. 
+Customer Service(Jira) 사용자 가이드를 안내드립니다. 
 ```
 
 ## [Sign In & Up](sign.md) 

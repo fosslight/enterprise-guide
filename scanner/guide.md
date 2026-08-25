@@ -5,7 +5,7 @@ published: true
 ---
 
 # FOSSLight Scanner Database
-`fosslight` 또는 `fosslight_source` 명령어 실행 시 FOSSLight Scanner Database의 OSS Information (OSS Name, OSS Version, Download location)을 추가로 조회할 수 있습니다.
+[`fosslight_scanner`](https://pypi.org/project/fosslight-scanner/) 또는 [`fosslight_source`](https://pypi.org/project/fosslight-source/) 실행 시 FOSSLight Scanner Database의 OSS Information (OSS Name, OSS Version, Download location)을 추가로 조회할 수 있습니다.
 
 ## FOSSLight Scanner Database Token 발행 요청 방법
 FOSSLight Scanner Database 접속에 필요한 Token은 아래 정보를 포함하여 [`support`](../support/)에 이슈를 생성해 발행을 요청합니다.

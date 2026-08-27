@@ -19,8 +19,8 @@ published: true
 - 그 외 [`Warning message`](https://fosslight.org/hub-guide/tips/1_common/5_warning_message/)를 검토합니다.
 
 ## 리뷰 요청 절차
+
 - SBOM 탭에서 **Save** 버튼을 클릭합니다.
   - 3rd Party, SRC, DEP, BIN 탭에 작성한 OSS List를 취합합니다.
 - Request 버튼을 클릭하여 리뷰 요청을 합니다.
   - 단, 빨간색 Warning Message가 있을 경우 리뷰 요청이 불가합니다.
-

@@ -1,14 +1,21 @@
 ---
-title: 중간 관리자 메뉴 사용법
-sort: 2
+title: User Management
+sort: 1
 published: true
 ---
 
-# 중간 관리자 메뉴 사용법
+# User Management
 
 중간 관리자 메뉴에서 사용자 상태와 권한을 관리하는 방법을 안내드립니다.
 
-![중간 관리자 메뉴](images/user_management.png)
+![중간 관리자 메뉴](../../images/user_management.png)
+
+## 접속 방법
+
+User Management 메뉴는 사용자 정보를 확인할 수 있는 메뉴로 접근시 비밀번호 입력이 필요합니다.
+비밀번호는 관리자에게 문의하시길 바랍니다.
+
+
 ## Active User
 
 사용자 목록 상단에서 현재 활성화된 사용자 수와 활성화할 수 있는 전체 사용자 수를 확인할 수 있습니다.

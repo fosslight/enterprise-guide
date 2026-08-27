@@ -1,6 +1,6 @@
 ---
 title: 중간 관리자 리뷰 방법
-sort: 3
+sort: 2
 published: true
 ---
 

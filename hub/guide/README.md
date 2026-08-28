@@ -1,5 +1,5 @@
 ---
-title: 2. Guide
+title: Guide
 sort: 2
 published: true
 ---

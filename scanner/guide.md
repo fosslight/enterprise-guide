@@ -1,6 +1,6 @@
 ---
 title: Guide
-sort: 2
+sort: 1
 published: true
 ---
 

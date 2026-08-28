@@ -1,6 +1,6 @@
 ---
 title: Notice
-sort: 1
+sort: 3
 published: false
 ---
 

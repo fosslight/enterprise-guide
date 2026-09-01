@@ -8,17 +8,11 @@ FOSSLight Enterprise Service는 오픈소스와 라이선스를 관리하고, �
 
 ### FOSSLight Hub 
 {: .specific-title} 
-<!--
-- [FOSSLight Hub Notice](hub/notice.md)
--->
-- [FOSSLight Hub Guide](hub/guide.md)
+- [FOSSLight Hub Guide](hub/guide/README.md)
 <br>
 
 ### FOSSLight Scanner
 {: .specific-title} 
-<!--
-- [FOSSLight Scanner Notice](scanner/notice.md)
--->
 - [FOSSLight Scanner Guide](scanner/guide.md)
 <br>
 

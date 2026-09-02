@@ -13,7 +13,7 @@ published: true
 ## 접속 방법
 
 User Management 메뉴는 사용자 정보를 확인할 수 있는 메뉴로 접근시 비밀번호 입력이 필요합니다.
-비밀번호는 관리자에게 문의하시길 바랍니다.
+비밀번호는 Admin에게 문의하시길 바랍니다.
 
 
 ## Active User
